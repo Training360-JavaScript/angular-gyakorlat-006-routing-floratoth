@@ -24,7 +24,7 @@ navigációs sávot is készítettem, amely megjeleníti majd a menüpontokat.
 `@var name {string}`, 
 `@var date {string}`, 
 `@var time {string}`,
-`@var location {Location}`  
+`@var location {Location}` 
 > FIGYELEM: vigyázz, hogy jó helyről importáld az Event és Location 
 osztályokat, mert azonos néven léteznek natív JS-objektumok is.
 
