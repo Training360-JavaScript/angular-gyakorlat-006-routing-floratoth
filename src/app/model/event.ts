@@ -4,5 +4,9 @@ export class Event {
   name: string = '';
   date: string = '';
   time: string = '';
-  location!: Location;
+  location: Location = {
+    address: 'Ady Street',
+    city: 'Budapest',
+    country: 'Hungary',
+  };
 }
